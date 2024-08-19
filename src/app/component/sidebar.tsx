@@ -49,13 +49,13 @@ export default function Sidebar() {
         <div className="flex justify-between gap-3">
           <Button
             variant="outline"
-            className=" my-4 mx-4 mx-auto "
+            className=" my-4 mx-4 mx-auto cursor-pointer"
             onClick={() => {
               signOut(auth);
             }}
           >
             logout
-            <CiLogout className=" text-2xl font-extrabold ml-1" />
+            <CiLogout className=" text-xl font-extrabold ml-1" />
           </Button>
         </div>
 
